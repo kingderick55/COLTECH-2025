@@ -1,11 +1,239 @@
-<!DOCTYPE html>
+
+        <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Zagadat&Kiki</title>
+    <style>
+    .container { 
+        max-width: 1200px; 
+        margin: 0 auto; 
+        padding: 20px; 
+        position: relative; 
+        overflow: hidden; 
+    } 
+
+    /* Navigation */ 
+    .nav { 
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 20px 0; 
+    } 
+
+    .logo { 
+        font-size: 24px; 
+        font-weight: bold; 
+        color: #50131b; 
+    } 
+
+    .nav-links { 
+        display: flex; 
+        gap: 30px; 
+    } 
+
+    .nav-link { 
+        text-decoration: none; 
+        color: #000; 
+        font-weight: 500; 
+    } 
+    .hero{
+        background-image: url(hero.jpg);
+        background-repeat: no-repeat;
+        width: 50cm;
+        height: 20cm;
+        background-size: cover;
+    }
+    .menu{
+   
+   
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.menu div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin-top: 40px;
+}
+    .card-1{
+  
+  
+   width: 20%;
+   height: 150px;
+}
+.card-2{
+ 
+   color: #fff;
+   width: 20%;
+   height: 150px;
+}
+img{
+    height:250px;
+    width: 250px;
+}
+.card-3{
+   
+   color: #fff;
+   width: 20%;
+   height: 150px;
+}
+.about { 
+   display: flex; 
+   justify-content: space-between; 
+   align-items: center; 
+   padding: 40px 0; 
+   position: relative; 
+} 
+.about-text{
+    margin-left: 60px;
+}
+.about-image { 
+   background-image: url(about.jpg); 
+   background-repeat: no-repeat; 
+   position: relative;
+   background-size: cover; 
+   width: 700px; 
+   height:80vh; 
+   display: block;
+   margin-top: 40px;
+} 
+.order { 
+   display: flex; 
+   justify-content: space-between; 
+   align-items: center; 
+   padding: 40px 0; 
+   position: relative; 
+} 
+.order-image { 
+   background-image: url(contact.jpg); 
+   background-repeat: no-repeat; 
+   position: relative;
+   background-size: cover; 
+   width: 700px; 
+   height:80vh; 
+   display: block;
+   margin-top: 40px;
+} 
+.buttons { 
+   display: flex; 
+   gap: 15px; 
+} 
+
+.btn { 
+   padding: 12px 28px; 
+  margin-top:70px;
+   text-decoration: none; 
+   font-weight: bold; 
+   cursor: pointer; 
+} 
+
+
+
+.btns { 
+   background-color: rgb(110, 9, 9); 
+   color: white; 
+  
+   border: none; 
+} 
+h2{
+    color: rgb(88, 16, 16);
+}
+h3{
+    text-align: center;
+}
+footer{
+justify-content: center;
+text-align: center;
+}
+</style>
 </head>
 <body>
-    <h1>my new site</h1>
+    <div class="container"> 
+        <!-- Navigation --> 
+        <nav class="nav"> 
+           <div class="logo">ZAGADAT&KIKI.</div> 
+           <div class="nav-links"> 
+               <a href="#" class="nav-link">Home</a> 
+               <a href="#" class="nav-link">about</a> 
+               <a href="#" class="nav-link">menu</a> 
+               <a href="#" class="nav-link">order</a> 
+               
+               <a href="#" class="nav-link">contact</a> 
+               <a href="#" class="nav-link">help</a> 
+           </div> 
+        </nav> 
+           </div> 
+           
+           
+        
+      <div class="hero">
+
+      </div>
+    <div class="menu">
+    <h3> our menu</h3>
+    <div class="cards">
+        <div class="card-1"> <img src="1 card.jpg" alt=""></div>
+        <div class="card-2"><img src="2nd card.jpg" alt=""></div>
+        <div class="card-3"><img src="3rd card.jpg" alt=""></div>
+        <div class="card-3"><img src="4th card.jpg" alt=""></div>
+        
+    </div>
+    <div class="buttons"> 
+             
+        <a href="" class="btn btns">contact now</a> 
+    </div> 
+    
+    </div>
+    <section class="about">
+        <div class="about-image">
+
+        </div>
+        <div class="about-text">
+            <h1>ABOUT <br> our restaurant
+            </h1>
+            HOURS.<br>
+          <p>  MONDAY - 12pm-9pm <br>
+TUESDAY -12pm-9pm<br>
+WEDNESDAY -12pm-10pm<br>
+THURSDAY -12pm-10pm<br>
+FRIDAY - 12pm-10pm<br>
+SATURDAY-12pm-10pm<br>
+SUNDAY-12pm-10pm<br>
+          </p>
+          <div class="buttons"> 
+             
+            <a href="" class="btn btns">about us</a> 
+        </div> 
+        
+        </div>
+    </section>
+    <section class="order">
+       
+        <div class="order-text">
+            <h1>Order <br> pick-up & delivery
+            </h1>
+            CONTACTLESS TAKE OUT<br>
+            To place an order for pickup<br>
+            please order via contact
+          </p>
+          <div class="buttons"> 
+             
+            <a href="" class="btn btns">contact now</a> 
+        </div> 
+        <h2>
+            Enjoy your meal
+        </h2>
+        </div>
+        <div class="order-image">
+
+        </div>
+    </section>
+<footer> @ 2025 Zagadat&kiki.All rights reserved.</footer>
 </body>
 </html>
